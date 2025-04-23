@@ -1,18 +1,19 @@
-// fader script function
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   const faders = document.querySelectorAll(".feature-card, .card, .room-card, .info-card");
 
-  const appearOnScroll = new IntersectionObserver((entries) => {
+  const appearOptions = {
+    threshold: 0.2,
+    rootMargin: "0px 0px -50px 0px",
+  };
+
+  const appearOnScroll = new IntersectionObserver(function (entries, observer) {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      } else {
-        entry.target.classList.remove("show");
-      }
+      if (!entry.isIntersecting) return;
+
+      entry.target.classList.add("show");
+      observer.unobserve(entry.target);
     });
-  }, {
-    threshold: 0.25
-  });
+  }, appearOptions);
 
   faders.forEach((fader) => {
     appearOnScroll.observe(fader);

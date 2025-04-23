@@ -216,6 +216,40 @@ nav {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 1200px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .nav-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .logo-stack {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .weather-container {
+    margin-top: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;

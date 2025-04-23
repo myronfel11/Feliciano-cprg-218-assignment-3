@@ -1,4 +1,4 @@
-/* Dining Page Styles */
+/* Dining and Activities Page Styles */
 .dining-section {
   padding: 4rem 2rem;
   background-color: #ddd0c8;
@@ -99,16 +99,124 @@
   .info-card {
     flex-direction: column;
     text-align: center;
+    padding: 1.5rem 1rem;
   }
 
-  .info-card img,
+  .info-card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
   .card-content {
     width: 100%;
+    margin-top: 1rem;
+  }
+
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   .card-content ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    max-width: 95%;
+    margin-inline: auto;
     text-align: left;
-    max-width: 90%;
-    margin: 0 auto;
+  }
+
+  .dining-section h2,
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .dining-section p.intro,
+  .section-intro {
+    font-size: 1rem;
+    padding-inline: 1rem;
+  }
+  .dining-section .info-card img {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 590px) {
+  .card-content h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .card-content p {
+    font-size: 0.9rem !important;
+    line-height: 1.5;
+  }
+
+  .card-content ul {
+    font-size: 0.1rem !important; /* Smaller font */
+    line-height: 1; /* Tighter line spacing */
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .card-content ul li {
+    margin-bottom: 0.3rem; /* Less gap between bullet points */
+  }
+}
+
+@media (max-width: 480px) {
+  .info-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .info-card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    margin-top: 0.5rem;
+  }
+
+  .card-content h3 {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-content h4 {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.3rem;
+  }
+
+  .card-content p {
+    font-size: 0.85rem !important;
+    line-height: 1.4;
+  }
+
+  .card-content ul {
+    font-size: 0.8rem !important;
+    line-height: 1.4;
+    padding-left: 1rem;
+  }
+
+  .card-content ul li {
+    margin-bottom: 0.3rem;
+  }
+
+  .section-title,
+  .dining-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .section-intro,
+  .dining-section p.intro {
+    font-size: 0.95rem;
+    padding-inline: 1rem;
+    line-height: 1.5;
   }
 }
