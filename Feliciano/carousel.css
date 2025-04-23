@@ -182,9 +182,19 @@
 }
 
 @media (max-width: 768px) {
+  .carousel-track img {
+    height: 300px;
+  }
+
+  .carousel {
+    max-height: 320px;
+  }
   .room-card {
     flex-direction: column;
     text-align: center;
+  }
+  .room-card img {
+    height: 180px !important;
   }
 
   .room-card img,
@@ -196,5 +206,18 @@
     text-align: left;
     margin-inline: auto;
     max-width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .room-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .room-content p {
+    font-size: 0.95rem;
+  }
+
+  .room-content ul li {
+    margin-bottom: 0.3rem;
   }
 }

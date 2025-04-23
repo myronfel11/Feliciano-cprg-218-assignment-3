@@ -5,3 +5,7 @@ cottonbro studio. (2020, April). *Person in Black Gloves Massaging Fingers · F
 Tekeridis, J. (2019, November 13). *Woman Doing Facial Mask · Free Stock Photo*. Pexels. https://www.pexels.com/photo/woman-doing-facial-mask-3212179/
 
 Savva, G. (2024, January 8). *a woman getting a massage from a man*. Unsplash.com; Unsplash. https://unsplash.com/photos/a-woman-getting-a-massage-from-a-man-4pmzxWNHn_A
+
+Kelly. (2019, September 8). People Snorkeling In Deep Water · Free Stock Photo. Pexels. https://www.pexels.com/photo/people-snorkeling-in-deep-water-2887294/
+
+‌
