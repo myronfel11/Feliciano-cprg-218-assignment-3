@@ -8,4 +8,4 @@ Savva, G. (2024, January 8). *a woman getting a massage from a man*. Unsplash.c
 
 Kelly. (2019, September 8). People Snorkeling In Deep Water · Free Stock Photo. Pexels. https://www.pexels.com/photo/people-snorkeling-in-deep-water-2887294/
 
-‌
+‌All other work is original.
